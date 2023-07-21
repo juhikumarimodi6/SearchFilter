@@ -1,5 +1,5 @@
 
-const Table = ({ data }) => {
+const Table = (props) => {
     return (
       <table>
         <tbody>
@@ -8,7 +8,7 @@ const Table = ({ data }) => {
             <th>Surname</th>
             <th>Email</th>
           </tr>
-          {data.map((item) => (
+          {props.data.map((item) => (
             <tr key={item.id}>
               <td>{item.first_name}</td>
               <td>{item.last_name}</td>
