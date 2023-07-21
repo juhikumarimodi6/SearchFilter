@@ -9,7 +9,6 @@ This is a simple React application that implements a search filter functionality
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Getting Started
 
